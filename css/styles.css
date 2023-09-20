@@ -10,9 +10,25 @@ a{
     text-decoration: none;
 }
 
+header{
+    display: flex;
+    border: 1px #ECECEC;
+    height: 80px;
+}
+
+.container{
+    width: 1600px;
+}
+
 .site-title{
+    display: flex;
+    justify-content: flex-start;
     text-decoration: none;
     font-weight: bold;
+    height: 31px;
+    width: 145px;
+    margin-left: 215px;
+    margin-top: 24px;
 }
 
 .web{
@@ -39,7 +55,17 @@ a{
     list-style-type: none;
 }
 
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -47,16 +73,38 @@ a{
     line-height: 16.41px;
 }
 
+.nav,
+.nav-current, 
 .contact-link-header{
+    margin-top: 32px;
+}
+
+.nav li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-link-header{
+    display: flex;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
     color: var(--color-text);
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
 }
 
 .nav:hover, .contact-link-header:hover{
     color: var(--color-button);
+}
+
+.homepg {
+    background-color: #2F303A;
+    text-align: center;
+    border-width: 1600px;
+    height: 600px;
 }
 
 #title{
@@ -65,9 +113,12 @@ a{
     font-weight: 900px;
     color: #FFFFFF;
     text-align: center;
-    left: 452px;
     height: 120px;
-    top: 280px;
+    width: 696px;
+    line-height: 60px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
 }
 
 .request{
@@ -77,8 +128,13 @@ a{
     font-weight: 700;
     line-height: 30px;
     font-size: 16px;
-    align: center;
     cursor: pointer;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 19px;
+    align: center;
 }
 
 .request:hover{
@@ -87,32 +143,56 @@ a{
     color: white;
 }
 
-.homepg {
-    background-color: #2F303A;
-}
-
 ul{
     list-style-type: none;
 }
 
 .attention-details{
+    display: flex;
     font-family: var(--text-fontfamily);
     font-weight: var(--font-weight-title);
     font-size: 14px;
     line-height: 16.41px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 .details{
+    display: flex;
     color: var(--color-text);
     font-family: var(--text-fontfamily);
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
-.section {
+.section,
+.section-team{
     font-family: var(--text-fontfamily);
     font-weight: var(--font-weight-title);
     font-size: 36px;
     line-height: 42.19px;
     text-align: center;
+    width: 1200px;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.section-pics{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.card{
+    background-color: #FFFFFF;
 }
 
 .job{
