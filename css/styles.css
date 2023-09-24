@@ -1,3 +1,5 @@
+
+
 :root {
     --color-button: #2196F3;
     --color-text:#757575;
@@ -18,13 +20,12 @@ img{
 
 header{
     display: flex;
-    border-bottom: 1px #ECECEC;
     height: 80px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container{
-    width: 1200px;
-}
+    ------------}
 
 .site-title{
     display: flex;
@@ -35,6 +36,7 @@ header{
     width: 145px;
     margin-left: 215px;
     margin-top: 24px;
+    margin-bottom: 25px;
 }
 
 .web{
@@ -78,12 +80,14 @@ header{
     font-size: 14px;
     color: #212121;
     line-height: 16.41px;
+    margin-bottom: 25px;
 }
 
 .nav,
 .nav-current, 
 .contact-link-header{
     margin-top: 32px;
+    margin-bottom: 25px;dedswd
 }
 
 .nav li{
@@ -161,6 +165,7 @@ ul{
     justify-content: flex-start;
     gap: 30px;
     width: 1200px;
+    margin-left: 215px;
 }
 
 .attention-details,
@@ -196,16 +201,26 @@ ul{
     line-height: 42.19px;
     width: 1200px;
     text-align: center;
+    margin-left: 215px;
 }
 
-.section-wedo{
-}
+
 
 .container-team{
     background-color: #F5F4FA;
+    margin-left: 215px;
 }
 
 .section-pics{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 215px;
+}
+
+.section-pics-team{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -242,6 +257,12 @@ body{
 footer{
     background-color: #2F303A;
     text-decoration: none;
+    height: 215px;
+}
+
+.footer-text{
+    margin-left: 215px;
+    gap: 28px;
 }
 
 .footer-studio{
@@ -322,13 +343,28 @@ address{
     display: none;
 }
 
-.pictures{
+.card-set{
     display: flex;
     flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: -10px;
     flex-basis: calc((100%-60px)/3);
+    list-style-type: none;
+}
+
+.item{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+----------------.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: -10px;
     gap: 30px;
     padding-top: 50px;
-}
+}-->
 
 .pictures-title{
     font-family: var(--text-fontfamily);
