@@ -22,10 +22,13 @@ header{
     display: flex;
     height: 80px;
     border-bottom: 1px solid #ECECEC;
+    padding-bottom: 32px;
 }
 
 .container{
-    ------------}
+    width: 1200px;
+    margin-left: 215px;
+}
 
 .site-title{
     display: flex;
@@ -300,10 +303,6 @@ address{
     color: var(--color-button);
 }
 
-.portofolio-page{
-    margin-left: 215px;
-}
-
 .button-portofolio{
     display: flex;
     font-family: var(--text-fontfamily)
@@ -315,6 +314,8 @@ address{
     text-align: center;
     line-height: 26px;
     letter-spacing: 0.48px;
+    font-weight: bold;
+    border-radius: 4px;
 }
 
 .filter-button{
@@ -348,23 +349,19 @@ address{
     flex-wrap: wrap;
     margin-left: -10px;
     margin-top: -10px;
-    flex-basis: calc((100%-60px)/3);
-    list-style-type: none;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 
 .item{
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-----------------.pictures{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-top: -10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: calc((100% - 30px) / 3);
     gap: 30px;
-    padding-top: 50px;
-}-->
+}
 
 .pictures-title{
     font-family: var(--text-fontfamily);
