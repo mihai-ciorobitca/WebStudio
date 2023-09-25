@@ -221,8 +221,7 @@ ul{
     margin-bottom: 0;
 }
 
-.h2-wedo,
-.h2-team {
+.h2-wedo{
     display: flex;
     font-family: var(--text-fontfamily);
     font-weight: var(--font-weight-title);
@@ -231,9 +230,18 @@ ul{
     justify-content: center;
 }
 
+.h2-team{
+    display: flex;
+    font-family: var(--text-fontfamily);
+    font-weight: var(--font-weight-title);
+    font-size: 36px;
+    line-height: 42.19px;
+    justify-content: center;
+    width: 1200px;
+}
+
 .container-section{
     background-color: #F5F4FA;
-    width: 1600px;
     padding-left: 215px;
 }
 
