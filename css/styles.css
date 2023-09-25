@@ -215,7 +215,7 @@ ul{
     flex-direction: row;
     gap: 30px;
     justify-content: space-between;
-    padding-left: 0;
+    width: 1200px;
     padding-bottom: 94px;
     padding-top: 50px;
     margin-bottom: 0;
@@ -231,8 +231,15 @@ ul{
     justify-content: center;
 }
 
+.container-section{
+    background-color: #F5F4FA;
+    width: 1600px;
+    padding-left: 215px;
+}
+
 .team-section{
     background-color: #F5F4FA;
+    margin: 0;
 }
 
 
