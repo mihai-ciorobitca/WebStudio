@@ -37,7 +37,6 @@ header{
     font-weight: bold;
     height: 31px;
     width: 145px;
-    margin-left: 215px;
     margin-top: 24px;
     margin-bottom: 25px;
 }
@@ -67,10 +66,11 @@ header{
 }
 
 .header-nav{
-    width: 1200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0;
+    margin-right: 225px;
 }
 
 .nav{
@@ -260,12 +260,6 @@ body{
 footer{
     background-color: #2F303A;
     text-decoration: none;
-    height: 215px;
-}
-
-.footer-text{
-    margin-left: 215px;
-    gap: 28px;
 }
 
 .footer-studio{
@@ -282,6 +276,7 @@ a{
 
 address{
     font-style: normal;
+    margin: 0;
 }
 
 .address{
@@ -290,6 +285,7 @@ address{
     font-size: 14px;
     line-height: 16.41px;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .contact-link-footer{
@@ -297,6 +293,11 @@ address{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 16.41px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .contact-link-footer:hover{
@@ -307,6 +308,7 @@ address{
     display: flex;
     font-family: var(--text-fontfamily)
     font-weight: 500;
+    font-size: 16px;
     background-color: #F5F4FA;
     color: #212121;
     cursor: pointer;
@@ -316,6 +318,7 @@ address{
     letter-spacing: 0.48px;
     font-weight: bold;
     border-radius: 4px;
+    height: 38px;
 }
 
 .filter-button{
