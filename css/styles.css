@@ -27,7 +27,6 @@ header{
 
 .container{
     width: 1200px;
-    margin-left: 215px;
 }
 
 .site-title{
@@ -65,11 +64,16 @@ header{
     list-style-type: none;
 }
 
+.container-header{
+    margin-left: 215px;
+}
+
 .header-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
+    width: 1200px;
 }
 
 .nav{
@@ -113,11 +117,18 @@ header{
     color: var(--color-button);
 }
 
+body{
+    padding: 0;
+    width: auto;
+}
+
 .homepg {
     background-color: #2F303A;
     justify-items: center;
     padding-top: 200px;
     padding-bottom: 30px;
+    width: 1200px;
+    margin-left: 215px;
 }
 
 #title{
@@ -160,6 +171,11 @@ ul{
     list-style-type: none;
 }
 
+.container-attention{
+    width: 1200px;
+    margin-left: 215px;
+}
+
 .attention-section{
     display: flex;
     flex-wrap: nowrap;
@@ -195,6 +211,11 @@ ul{
     font-family: var(--text-fontfamily);
 }
 
+.container-wedo{
+    width: 1200px;
+    margin-left: 215px;
+}
+
 .wedo-section{
     padding-left: 0;
     padding-bottom: 94px;
@@ -219,17 +240,10 @@ ul{
     padding-bottom: 94px;
     padding-top: 50px;
     margin-bottom: 0;
+    padding-left: 215px;
 }
 
-.h2-wedo{
-    display: flex;
-    font-family: var(--text-fontfamily);
-    font-weight: var(--font-weight-title);
-    font-size: 36px;
-    line-height: 42.19px;
-    justify-content: center;
-}
-
+.h2-wedo, 
 .h2-team{
     display: flex;
     font-family: var(--text-fontfamily);
@@ -237,12 +251,10 @@ ul{
     font-size: 36px;
     line-height: 42.19px;
     justify-content: center;
-    width: 1200px;
 }
 
 .container-section{
-    background-color: #F5F4FA;
-    padding-left: 215px;
+    width: 1600px;
 }
 
 .team-section{
@@ -272,16 +284,12 @@ ul{
     text-align: center;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-}
-
 footer{
     background-color: #2F303A;
     text-decoration: none;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 215px;
 }
 
 .footer-studio{
@@ -349,6 +357,8 @@ address{
     justify-content: center;
     gap: 8px;
     padding-top: 94px;
+    margin-left: 215px;
+    width: 1200px;
 }
 
 .button-portofolio:hover{
@@ -367,6 +377,11 @@ address{
 
 .h2-portofolio{
     display: none;
+}
+
+.container-cards{
+    margin-left: 215px;
+    width: 1200px;
 }
 
 .cards-portofolio{
