@@ -13,7 +13,6 @@ a{
 }
 
 img{
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -23,10 +22,7 @@ header{
     height: 80px;
     border-bottom: 1px solid #ECECEC;
     padding-bottom: 32px;
-}
-
-.container{
-    width: 1200px;
+    width: 100%;
 }
 
 .site-title{
@@ -62,10 +58,6 @@ header{
 
 .nav, .contact-link-header{
     list-style-type: none;
-}
-
-.container-header{
-    margin-left: 215px;
 }
 
 .header-nav{
@@ -127,8 +119,6 @@ body{
     justify-items: center;
     padding-top: 200px;
     padding-bottom: 30px;
-    width: 1200px;
-    margin-left: 215px;
 }
 
 #title{
@@ -171,15 +161,10 @@ ul{
     list-style-type: none;
 }
 
-.container-attention{
-    width: 1200px;
-    margin-left: 215px;
-}
-
 .attention-section{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 30px;
     padding-left: 0;
     padding-top: 94px;
@@ -212,8 +197,8 @@ ul{
 }
 
 .container-wedo{
-    width: 1200px;
-    margin-left: 215px;
+    display: flex;
+    justify-content: center;
 }
 
 .wedo-section{
@@ -224,8 +209,8 @@ ul{
 .section-pics{
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    justify-content: space-between;
+    gap: 90px;
+    justify-content: center;
     padding-left: 0;
     padding-top: 50px;
     padding-bottom: 0;
@@ -234,13 +219,11 @@ ul{
 .section-pics-team{
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    justify-content: space-between;
-    width: 1200px;
+    gap: 100px;
+    justify-content: center;
     padding-bottom: 94px;
     padding-top: 50px;
     margin-bottom: 0;
-    padding-left: 215px;
 }
 
 .h2-wedo, 
@@ -254,7 +237,7 @@ ul{
 }
 
 .container-section{
-    width: 1600px;
+    -----------
 }
 
 .team-section{
@@ -290,6 +273,7 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 215px;
+    width: 100%;
 }
 
 .footer-studio{
@@ -357,7 +341,6 @@ address{
     justify-content: center;
     gap: 8px;
     padding-top: 94px;
-    margin-left: 215px;
     width: 1200px;
 }
 
@@ -379,20 +362,18 @@ address{
     display: none;
 }
 
-.container-cards{
-    margin-left: 215px;
-    width: 1200px;
+img{
+    display: block;
 }
 
 .cards-portofolio{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-top: -10px;
-    gap: 30px;
     padding-top: 50px;
     padding-bottom: 94px;
     justify-content: center;
+    width: 1200px;
+    gap: 30px;
 }
 
 .card-set{
@@ -400,15 +381,15 @@ address{
     flex-direction: column;
     justify-content: center;
     border: 1px solid #EEEEEE;
+    width: 370px;
 }
 
-.item{
+.cards-portofolio section{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+    justify-content: center;
     margin-top: 10px;
     flex-basis: calc((100% - 60px) / 3);
-    gap: 30px;
 }
 
 .pictures-title{
