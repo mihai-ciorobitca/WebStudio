@@ -49,3 +49,19 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+li {
+    list-style-type: none;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.li {
+    display: flex;
+    flex-direction: column
+}

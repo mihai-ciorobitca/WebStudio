@@ -1,23 +1,25 @@
-.img {
-    width: 300px
-}
-
 .container-section-activity {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    gap: 30px
+}
+
+.container-section-activitys {
+    display: flex;
+    flex-direction: column;
 }
 
 .container-section-contact {
     display: flex;
+    gap: 200px;
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 
 .container-section-header {
@@ -75,23 +77,11 @@
     color: #fff
 }
 
-.ul {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-between
-}
-
 .svg {
     background-color: #f4f4fd;
     display: flex;
     justify-content: center;
     padding: 30px
-}
-
-.li {
-    display: flex;
-    flex-direction: column
 }
 
 .card-info {
@@ -106,7 +96,8 @@
 .card-contacts {
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .card-name {
@@ -299,14 +290,6 @@
 
 .h2-portofolio {
     display: none
-}
-
-.container-section-activity-1,
-.container-section-activity-2,
-.container-section-activity-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
 }
 
 .card-set {
