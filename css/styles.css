@@ -89,6 +89,11 @@ li {
     background-color: #F4F4FD;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container-section-contact {
     display: flex;
     gap: 200px;
