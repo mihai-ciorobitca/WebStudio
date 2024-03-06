@@ -48,16 +48,23 @@ li {
     list-style-type: none;
 }
 
-.ul {
+.container-section-goal ul,
+.container-section-activity ul,
+.container-section-team ul,
+.container-section-customers ul,
+.activity-row {
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
 }
 
-.li {
+.container-section-goal li,
+.container-section-activity li,
+.container-section-team li,
+.container-section-customers li {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 /* Styles for index */
@@ -68,15 +75,16 @@ li {
     justify-content: space-between;
 }
 
-.img {
-    width: 100%;
+img, svg {
+    max-width: 100%;
     height: auto;
 }
 
 .container-section-goal,
 .container-section-activity,
 .container-section-team,
-.container-section-customers {
+.container-section-customers,
+.container-section-activitys {
     display: flex;
     flex-direction: column;
     margin-left: 100px;
@@ -121,18 +129,16 @@ img {
     color: #2e2f42
 }
 
-.header-links,
 .header-site {
     display: flex;
-    width: 50%
+    width: 50%;
+    justify-content: left;
 }
 
-.header-site {
-    justify-content: left
-}
-
-.header-links {
-    justify-content: space-between
+.container-section-header-left nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
 }
 
 .container-section-header-left,
@@ -170,13 +176,6 @@ img {
     padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px
-}
-
-.card-contacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 20px;
 }
 
 .card-name {
@@ -376,6 +375,10 @@ img {
     padding-bottom: 0
 }
 
+.container-section-activitys {
+    gap: 20px
+}
+
 .contacts-svg {
     display: flex;
     justify-content: space-evenly;
@@ -486,18 +489,9 @@ img {
     color: #2e2f42
 }
 
-.header-links,
-.header-site {
+.card-contacts {
     display: flex;
-    width: 50%
-}
-
-.header-site {
-    justify-content: center
-}
-
-.header-links {
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .container-section-header-left,
@@ -508,7 +502,9 @@ img {
     align-items: baseline
 }
 
-.h2 {
+.container-section-activity h2,
+.container-section-team h2,
+.container-section-customers h2 {
     display: flex;
     justify-content: center
 }
@@ -533,13 +529,13 @@ img {
 .card-info {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px
 }
 
-.card-contacts {
+.card ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
