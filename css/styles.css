@@ -81,15 +81,27 @@ img, svg {
 }
 
 .container-section-goal,
-.container-section-activity,
-.container-section-team,
 .container-section-customers,
-.container-section-activitys {
+.container-section-team,
+.container-section-activity,
+.container-section-activities {
     display: flex;
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+    gap: 20px;
+}
+
+.container-section-team,
+.container-section-activity,
+.container-section-activities,
+.container-section-goal,
+.container-section-customers {
     padding-top: 100px;
+}
+
+.container-section-customers,
+.container-section-activities {
     padding-bottom: 100px;
 }
 
@@ -375,7 +387,7 @@ img {
     padding-bottom: 0
 }
 
-.container-section-activitys {
+.container-section-activities {
     gap: 20px
 }
 
@@ -457,7 +469,7 @@ img {
     padding-bottom: 50px;
 }
 
-.container-section-activitys {
+.container-section-activities {
     display: flex;
     flex-direction: column;
 }
@@ -492,6 +504,7 @@ img {
 .card-contacts {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .container-section-header-left,
