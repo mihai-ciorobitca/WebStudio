@@ -18,31 +18,46 @@
 <body>
     <header>
         <div class="container-section-header">
-                <div class="container-section-header-left">
-                    <div class="header-site"><a
-                            href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=0-1&mode=design&t=Td3jKYtAc2wYockx-0"><span
-                                class="header-web">Web</span><span class="header-studio">Studio</span></a></div>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html"><b class="header-link">Studio</b></a></li>
-                            <li><a href="portofolio.html"><b class="header-link">Portofolio</b></a></li>
-                            <li><a href="contacts.html"><b class="header-link">Contacts</b></a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="container-section-header-right">
-                    <div class="contact-link-header"><a class="contact-link-header"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a><a class="contact-link-header"
-                            href="tel:+1212-772-4150">+1 212-772-4150</a></div>
-                </div>
+            <div class="container-section-header-left">
+                <div class="header-site"><a
+                        href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=0-1&mode=design&t=Td3jKYtAc2wYockx-0"><span
+                            class="header-web">Web</span><span class="header-studio">Studio</span></a></div>
+                <nav>
+                    <ul>
+                        <li class="current-page"><a href="index.html"><b class="header-link">Studio</b></a></li>
+                        <li><a href="portofolio.html"><b class="header-link">Portofolio</b></a></li>
+                        <li><a href="contacts.html"><b class="header-link">Contacts</b></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="container-section-header-right">
+                <div class="contact-link-header"><a class="contact-link-header"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a><a class="contact-link-header"
+                        href="tel:+1212-772-4150">+1 212-772-4150</a></div>
+            </div>
         </div>
     </header>
     <main>
         <section class="section-homepage">
+
+            <div class="modal" data-modal>
+                <div class="modal-content">
+                    <button class="close-modal" data-modal-close>
+                        <svg>
+                            <use xlink:href="./images/icons.svg#icon-x">
+                            </use>
+                        </svg>
+                    </button>
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+
             <div class="container-section-homepage">
                 <h1 id="title">Effective Solutions<br>for Your Business</h1>
                 <div class="req-button">
-                    <button type="button" class="request">
+                    <button data-modal-open type="button" class="request">
                         <span class="request-text">Order service</span>
                     </button>
                 </div>
@@ -54,7 +69,7 @@
                     <li>
                         <div class="svg">
                             <svg class="goal-icon">
-                                <use xlink:href="./images/icons.svg#icon-strategy"> 
+                                <use xlink:href="./images/icons.svg#icon-strategy">
                                 </use>
                             </svg>
                         </div>
@@ -67,7 +82,8 @@
                             <svg class="goal-icon">
                                 <use xlink:href="./images/icons.svg#icon-punctuality">
                                 </use>
-                            </svg></div>
+                            </svg>
+                        </div>
                         <h3 class="goal-title">Punctuality</h3>
                         <p class="goal-description">Bring the key message to the brand's audience for the best price
                             within the shortest possible time.</p>
@@ -77,7 +93,8 @@
                             <svg class="goal-icon">
                                 <use xlink:href="./images/icons.svg#icon-diligence">
                                 </use>
-                            </svg></div>
+                            </svg>
+                        </div>
                         <h3 class="goal-title">Diligence</h3>
                         <p class="goal-description">Research and confirm brands that present the strongest digital
                             growth opportunities and minimize risk.</p>
@@ -235,7 +252,8 @@
             <div class="container-section-contact">
                 <div class="container-address">
                     <div class="footer-site">
-                        <a href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=0-1&mode=design&t=Td3jKYtAc2wYockx-0"><span
+                        <a
+                            href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=0-1&mode=design&t=Td3jKYtAc2wYockx-0"><span
                                 class="footer-web">Web</span><span class="footer-studio">Studio</span></a>
                     </div>
                     <address>
@@ -262,10 +280,11 @@
                         <svg class="social-media-icon">
                             <use xlink:href="./images/icons.svg#icon-linkedin2"></use>
                         </svg>
+                    </div>
                 </div>
-            </div>
         </section>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
